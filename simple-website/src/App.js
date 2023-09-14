@@ -1,9 +1,10 @@
 import './index.css';
+import { Navbar } from './components';
 
 function App() {
   return (
     <div>
-      test
+      <Navbar/>
     </div>
   );
 }

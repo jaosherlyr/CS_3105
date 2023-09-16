@@ -5,6 +5,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+((container, imageList) => {
+    for (const i of imageList) {
+        const img = document.createElement('img');
+        img.setAttribute('style', 'width:10px; height:10px; display:inline-block;');
+        img.setAttribute('src', i);
+        container.appendChild(img);
+    }
+})(document.querySelector('#preload-container'), [
+    "./media/Venti-tbhk.png",
+    "./media/Tamayo.png",
+    "./media/draken.png",
+    "./media/Fangs-OC.png",
+    "./media/TurtlePainting.png",
+    "./media/TCF-whiteBorder.png"
+]);
+
 root.render(
   <React.StrictMode>
     <App />

@@ -1,7 +1,8 @@
 import './index.css';
 import { Navbar } from './components';
-import { Home, Works } from "./pages";
+import { Home, Gallery } from "./pages";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+
 
 function App() {
   const routes = createBrowserRouter([{
@@ -12,8 +13,8 @@ function App() {
           path: '/',
           element: <Home/>
       }, {
-          path: '/works',
-          element: <Works/>
+          path: '/gallery',
+          element: <Gallery/>
       }]
   }]);
 

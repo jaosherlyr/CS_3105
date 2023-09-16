@@ -10,7 +10,7 @@ const NavItems = [
     },
     {
         id: 2,
-        link: '/works',
+        link: '/gallery',
         icon: <FiFilm/>,
         text: 'Gallery'
     },
@@ -29,7 +29,7 @@ function NavbarList({ expanded }) {
                 {NavItems.map((NavItems) => (
                     <div>
                         <Link to={NavItems.link} className="relative flex items-center py-1 px-3 my-2 rounded-md
-                            transition ease-in-out hover:text-vivid-violet-500 hover:bg-vivid-violet-100 hover:-translate-y-1 duration-150
+                            transition ease-in-out hover:text-vivid-violet-500 hover:bg-vivid-violet-100 hover:-translate-y-1 active:bg-vivid-violet-200 transition-150
                             ">
                             <li key={NavItems.id} className="font-medium text-lg text-vivid-violet-800 h-12 flex items-center">
                                 {NavItems.icon}

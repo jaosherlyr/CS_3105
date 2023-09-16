@@ -6,7 +6,9 @@ import ImageThree from "../media/draken.png";
 import ImageFour from "../media/Fangs-OC.png";
 import ImageFive from "../media/TurtlePainting.png";
 import ImageSix from "../media/TCF-whiteBorder.png";
-import {Shimmer} from "react-shimmer";
+import ImageSeven from "../media/beautyAndTheBeast.png";
+import ImageEight from "../media/Poster.png";
+import ImageNine from "../media/ErosAndPsyche.png";
 
 function ImageImports() {
     const image = [{
@@ -33,6 +35,18 @@ function ImageImports() {
         id: 6,
         src: ImageSix,
         text: "Trash of the count's Family Chibi"
+    }, {
+        id: 7,
+        src: ImageSeven,
+        text: 'Beauty and the Beast Poster'
+    }, {
+        id: 8,
+        src: ImageEight,
+        text: 'Poster Assignment'
+    }, {
+        id: 9,
+        src: ImageNine,
+        text: 'Eros and Psyche Illustration'
     }]
 
     return (

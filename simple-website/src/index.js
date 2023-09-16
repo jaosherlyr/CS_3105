@@ -15,11 +15,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     }
 })(document.querySelector('#preload-container'), [
     "./media/Venti-tbhk.png",
-    "./media/Tamayo.png",
     "./media/draken.png",
     "./media/Fangs-OC.png",
     "./media/TurtlePainting.png",
-    "./media/TCF-whiteBorder.png"
+    "./media/TCF-whiteBorder.png",
+    "./media/Strawberry.png",
+    "./media/ErosAndPsyche.png",
+    "./media/artNoveau.png"
 ]);
 
 root.render(
